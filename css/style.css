@@ -1,0 +1,29 @@
+
+body {
+    background-color: #F3E5D8;
+}
+
+main {
+    max-width: 1000px;
+    margin: 25px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto 20px auto;
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+h1,h2 {
+    margin: 0 10%;
+    
+    color: #824431;
+}
+
+p {
+    margin: 20px 10%;
+}
