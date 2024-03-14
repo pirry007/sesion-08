@@ -37,6 +37,10 @@ li {
     font-family: "DM Sans";
     margin: 10px 0;
 }
+
+table {
+    font-family: "DM Sans";
+}
 .preparationtime {
     background-color: #FFF7FC;
     border-radius: 10px;
@@ -52,3 +56,17 @@ li {
     margin: 5px;
 }
 
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr td {
+    border-bottom: 1px solid #A18F88;
+}
+
+.tablecolor {
+    color: #824431;
+    font-weight: bold;
+}
