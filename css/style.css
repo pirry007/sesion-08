@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #F3E5D8;
 }
@@ -8,37 +11,38 @@ main {
     margin: 25px auto;
     background-color: white;
     border-radius: 10px;
+    padding: 20px 40px;
 }
 
-img {
-    width: 80%;
-    display: block;
-    margin: 0 auto 20px auto;
-    padding-top: 4px;
+#intro img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
 h1,h2 {
-    margin: 0 10%;
     color: #824431;
 }
 
 p {
-    margin: 20px 10%;
 }
 
-div {
+.preparationtime {
     background-color: #FFF7FC;
     border-radius: 10px;
-    margin: 0 10%;
+    margin: 10px 10px ;
     padding: 10px 0 ;
 }
-h2.preparationtime {
-    color: #802258;
-    margin: 0 10px
+.preparationtime h2 {
+    color: #6B193B;
+    margin: 0 20px
 }
-ul li {
-    margin: 0 10%;
+.preparationtime ul {
+    
     margin: 5px;
 }
 
+ul li {
+    margin: 10px 0;
+}
